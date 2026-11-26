@@ -31,10 +31,3 @@ cyberguard/
 
 ---
 
-## Prerequisites
-
-- **Python**: 3.13 (Windows host) or 3.12+ (WSL2 Ubuntu 24.04)
-- **Java**: JDK 17 (`JAVA_HOME` pointing to JDK 17)
-- **Pipenv**: Virtual environment and dependency manager
-- **MongoDB 8.0+** and **Neo4j 5.x / Neo4j Desktop 2** (configured now via `.env`; integrations implemented in a later phase)
-
