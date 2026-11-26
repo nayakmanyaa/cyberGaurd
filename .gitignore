@@ -1,0 +1,30 @@
+# Environments & Secrets
+.env
+.venv/
+venv/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Spark & Datasets
+spark-warehouse/
+metastore_db/
+derby.log
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.csv
+*.parquet
+*.crc
+!data/sample/*.csv
+
+# Logs & OS
+logs/
+*.log
+.DS_Store
+Thumbs.db
